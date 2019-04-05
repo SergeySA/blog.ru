@@ -1,14 +1,12 @@
 <?php
 
-$config = array(
+return array(
 	'title' => 'Блог обо ВСЕМ',
 	'vk_url' => 'http://vk.com',
 	'db' => array(
-		'server' => 'localhost',
+		'server' => '127.0.0.1',
 		'username' => 'root',
-		'password' => '',
-		'name' => 'blog_db'
+		'password' => 'root',
+		'name' => 'blogsa'
 	)
 );
-
-require 'db.php';
